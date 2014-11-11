@@ -1,0 +1,14 @@
+SearchGlass:
+------------
+
+SearchGlass is basically a rudimentary search engine that searches for a query starting from a given page and pages linked from it, and returns the list of all pages that match the keyword, sorted. The algorithm used for sorting is similar to Google's PageRank. 
+
+Please note that this search engine is highly limited and cannot actually be used to search queries on the web. It is in no way a competition to Google, so Google needn't worry :-)
+
+The reason for this is that the indexer and the crawler work only on certain pages with relatively little HTML and follow a specific format for links to other web pages. But I do hope to rectify this shortcoming and make my search engine more powerful once I've completed Udacity's course on Web Development.
+
+To run the script:
+------------------
+
+Simply run the script named 'CrawlerScript.py'. A default start page and a keyword has been provided. You may freely edit those settings.
+
